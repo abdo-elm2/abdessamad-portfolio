@@ -1,0 +1,229 @@
+<!-- =========================
+FICHIER : index.html
+========================= -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdessamad Elmoussaoui | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">AE.</div>
+
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Abdessamad <span>Elmoussaoui</span></h1>
+
+      <h2>Élève Ingénieur en Génie Informatique</h2>
+
+      <p>
+        Spécialité Data Science & Intelligence Artificielle.
+        Passionné par le Machine Learning, les architectures logicielles
+        et le développement de solutions innovantes.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">Voir mes projets</a>
+        <a href="CV.pdf" download class="btn btn-outline">
+          Télécharger CV
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/profile.png" alt="Profile">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title">À propos</h2>
+
+    <div class="about-container">
+      <p>
+        Je suis étudiant ingénieur spécialisé en Data Science & IA.
+        J’aime concevoir des systèmes intelligents, développer des modèles
+        de Machine Learning et créer des applications web modernes.
+      </p>
+
+      <p>
+        J’ai travaillé sur plusieurs projets :
+        reconnaissance d’émotions par CNN,
+        analyse médiatique avec NLP,
+        plateforme CAN 2025,
+        et systèmes prédictifs.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Compétences</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-brain"></i>
+        <h3>Machine Learning</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h3>SQL / MySQL</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-php"></i>
+        <h3>PHP</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML/CSS</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-github"></i>
+        <h3>GitHub</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-network-wired"></i>
+        <h3>Réseaux</h3>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-robot"></i>
+        <h3>TensorFlow</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Mes Projets</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="project">
+
+        <div class="project-content">
+          <h3>CAN 2025 Emergency Website</h3>
+
+          <p>
+            Plateforme web permettant aux supporters de trouver
+            des hôpitaux, pharmacies et services d’urgence.
+          </p>
+
+          <div class="tags">
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="project">
+
+        <div class="project-content">
+          <h3>Emotion Recognition CNN</h3>
+
+          <p>
+            Développement d’un système de reconnaissance
+            des émotions faciales en temps réel.
+          </p>
+
+          <div class="tags">
+            <span>TensorFlow</span>
+            <span>OpenCV</span>
+            <span>CNN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="project">
+
+        <div class="project-content">
+          <h3>MAP Data Analysis</h3>
+
+          <p>
+            Analyse de contenus médiatiques via NLP et dashboards.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>TF-IDF</span>
+            <span>Data Science</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-container">
+
+      <a href="mailto:abdessamad.elmoussaoui23@gmail.com">
+        <i class="fas fa-envelope"></i>
+        Email
+      </a>
+
+      <a href="https://www.linkedin.com/in/abdessamad-elmoussaoui-7b9782333/">
+        <i class="fab fa-linkedin"></i>
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/abdo-elm2">
+        <i class="fab fa-github"></i>
+        GitHub
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Abdessamad Elmoussaoui - Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
